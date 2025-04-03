@@ -5,7 +5,7 @@ const Home = ({ toggle }) => {
   return (
     <Container>
       <div>
-        <img src="dices 1.png" alt="" />
+        <img src="./dices 1.png" alt="" />
       </div>
       <div className="content">
         <h1>Roll the Dice</h1>

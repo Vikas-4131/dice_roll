@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-      "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "predeploy": "vite build",
-  "deploy": "gh-pages -d dist"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -31,8 +31,6 @@
   "resolutions": {
     "styled-components": "^5"
   },
-  "homepage": "https://vikdara.github.io/dice_roll"
+  "homepage": "https://Vikas-4131.github.io/dice_roll"
+  
 }
-
-// git remote remove origin
-// git remote add origin https://github.com/Vikas-4131/dice_roll.git
