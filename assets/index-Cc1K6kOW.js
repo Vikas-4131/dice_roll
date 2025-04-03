@@ -81,7 +81,7 @@ color: black;
     color: white;
     /* transition: 0.3s background ease in; */
   }
-`,zv=({toggle:c})=>P.jsxs(_v,{children:[P.jsx("div",{children:P.jsx("img",{src:"dices 1.png",alt:""})}),P.jsxs("div",{className:"content",children:[P.jsx("h1",{children:"Roll the Dice"}),P.jsx(rr,{onClick:c,children:"Game Begins!"})]})]}),_v=Ll.div`
+`,zv=({toggle:c})=>P.jsxs(_v,{children:[P.jsx("div",{children:P.jsx("img",{src:"./dices 1.png",alt:""})}),P.jsxs("div",{className:"content",children:[P.jsx("h1",{children:"Roll the Dice"}),P.jsx(rr,{onClick:c,children:"Game Begins!"})]})]}),_v=Ll.div`
   max-width: 1180px;
   display: flex;
   margin: 0 auto;
@@ -147,7 +147,7 @@ p{
   /* cursor: pointer; */
   background-color: ${c=>c.isSelected?"black":"white"};
   color: ${c=>c.isSelected?"white":"black"};
-`,xv=({roledice:c,currentRoll:s})=>P.jsxs(qv,{children:[P.jsx("div",{className:"dice",onClick:c,children:P.jsx("img",{src:`dice_${s}.png`,alt:"wrong image"})}),P.jsx("p",{children:" Click on to Roll the dice "})]}),qv=Ll.div`
+`,xv=({roledice:c,currentRoll:s})=>P.jsxs(qv,{children:[P.jsx("div",{className:"dice",onClick:c,children:P.jsx("img",{src:`./dice_${s}.png`,alt:"Dice"})}),P.jsx("p",{children:" Click on to Roll the dice "})]}),qv=Ll.div`
   margin-top: 50px;
   display: flex;
   flex-direction: column;
