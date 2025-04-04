@@ -1,33 +1,23 @@
-import styled from  "styled-components"
-import Home from "./component/Home"
-import { useState } from "react"
-import Gameplay from "./component/Gameplay"
-
-// const  Button =  styled.button`
-// background-color:black;
-// color: white;
-// padding: 10px;
-// `;
+import styled from "styled-components";
+import Home from "./component/Home";
+import { useState } from "react";
+import Gameplay from "./component/Gameplay";
 
 function App() {
-   const [isgamestared, setIsgamestared] = useState(false)
+  const [isgamestared, setIsgamestared] = useState(false);
 
-   const togglegame = () => {
-    setIsgamestared((prev) => !prev)
-   }
-
+  const togglegame = () => {
+    setIsgamestared((prev) => !prev);
+  };
 
   return (
     <>
-      
-         {/* <Button>this is a compoent </Button> */
-         isgamestared ? <Gameplay/> : <Home toggle = {togglegame}/>
-         
-         }
-         
-    
+      {
+        /* <Button>this is a compoent </Button> */
+        isgamestared ? <Gameplay /> : <Home toggle={togglegame} />
+      }
     </>
-  )
+  );
 }
 
-export default App
+export default App;

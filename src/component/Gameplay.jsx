@@ -24,6 +24,9 @@ const Gameplay = () => {
       return;
     }
 
+      const audio = new Audio("./dice-142528.mp3");
+      audio.play();
+
     // seterror(""); yah pe hum error ko handle kar rahe the taki agr user nahi select kare the toh error nahi diya jayega
 
     const randomnumber = generaterandomnumber(1, 7);
